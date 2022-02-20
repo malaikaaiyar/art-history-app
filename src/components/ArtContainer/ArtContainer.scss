@@ -1,0 +1,21 @@
+.cards {
+    img {
+        width: auto !important;
+        height: 200px !important;
+        margin: 9px;
+        border-radius: 5px;
+    }
+}
+
+.cards:hover > img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 10px (0,0,0,0.5);
+    z-index: 100;
+}
+
+// https://www.moma.org/media/W1siZiIsIjE1OSJdLFsicCIsImNvbnZlcnQiLCItc XVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg
+// https://www.moma.org/media/W1siZiIsIjE1OSJdLFsicCIsImNvbnZlcnQiLCItc mVzaXplIDMwMHgzMDBcdTAwM2UiXV0.jpg
+
+
+// https://www.moma.org/media/W1siZiIsIjE2MCJdLFsicCIsImNvbnZlcnQiLCItc XVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg
+// https://www.moma.org/media/W1siZiIsIjE2MCJdLFsicCIsImNvbnZlcnQiLCItc mVzaXplIDMwMHgzMDBcdTAwM2UiXV0.jpg
