@@ -25,7 +25,7 @@ function ArtModal({imgUrl, title, artist, medium}) {
   return (
     <>
       {/* <Button onClick={handleOpen}>Open modal</Button> */}
-      <img src={imgUrl} onClick={handleOpen} />
+      <img src={imgUrl} onClick={handleOpen} alt={"art piece"} />
         <Modal
             open={open}
             onClose={handleClose}
@@ -40,7 +40,7 @@ function ArtModal({imgUrl, title, artist, medium}) {
                 <p>{medium}</p>
             </div>
             <div className="modal-right">
-                <img src={imgUrl} className="modal-image" />
+                <img src={imgUrl} alt={"art piece"} className="modal-image" />
             </div>
         </Box>
         </Modal>
